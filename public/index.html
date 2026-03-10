@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mridula Mozid - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-code"></i> <span>Mridula Mozid</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#education">Education & Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h1>Hello, I'm <span class="highlight">Mridula Mozid</span></h1>
+        <p class="subtitle">
+          Information and Communication Engineering Student | AI/ML Enthusiast
+        </p>
+        <div class="keywords">
+          <span class="keyword">Machine Learning</span>
+          <span class="keyword">Computer Vision</span>
+          <span class="keyword">Python</span>
+          <span class="keyword">Java</span>
+          <span class="keyword">Data Science</span>
+          <span class="keyword">SQL</span>
+        </div>
+        <div style="margin-top: 40px">
+          <a href="#projects" class="btn primary-btn"
+            >View My Work <i class="fas fa-arrow-right"></i
+          ></a>
+          <a href="#contact" class="btn secondary-btn" style="margin-left: 16px"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+      <div class="container">
+        <h2>My Resume</h2>
+        <p class="resume-intro">
+          Dive into my professional journey, skills, and certifications.
+        </p>
+        <div class="resume-actions">
+          <a
+            href="assets/resume.pdf"
+            target="_blank"
+            class="btn primary-btn resume-btn"
+          >
+            <i class="fas fa-file-download"></i> Download Resume
+          </a>
+          <a
+            href="assets/resume.pdf"
+            target="_blank"
+            class="btn secondary-btn resume-btn"
+          >
+            <i class="fas fa-eye"></i> View Online
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Skills Section -->
+    <section id="education" class="section split-section">
+      <div class="container split-container">
+        <div class="half-section education-box">
+          <h2>Education</h2>
+          <div class="edu-item">
+            <h3>BSc in Information and Communication Engineering</h3>
+            <p class="institution">Bangladesh University of Professionals</p>
+            <p class="date">
+              <i class="far fa-calendar-alt"></i> Expected Graduation: August
+              2026
+            </p>
+            <p class="grade"><strong>CGPA:</strong> 3.76/4.00</p>
+            <p class="coursework">
+              <strong>Related Coursework:</strong> AI, ML, Data Structures &
+              Algorithms, DBMS, Cloud Computing, System Design.
+            </p>
+          </div>
+        </div>
+        <div class="half-section skills-box">
+          <h2>Technical Skills</h2>
+          <div class="skill-category">
+            <h3>Programming</h3>
+            <p>Python, Java, C++, SQL (MySQL), Dart</p>
+          </div>
+          <div class="skill-category">
+            <h3>Machine Learning & CV</h3>
+            <p>Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn</p>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Development</h3>
+            <p>VS Code, IntelliJ IDEA, MySQL Workbench, Git, Trello, VMWare</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+              <h3>AI Tic-Tac-Toe Engine</h3>
+              <p class="short-desc">
+                Multi-Level AI with Minimax & Heuristic Search.
+              </p>
+              <div class="details">
+                <p>
+                  Implemented recursive Minimax algorithm with game state
+                  evaluation and decision optimization. Features Human vs Human
+                  and AI modes.
+                </p>
+                <a
+                  href="https://github.com/Mridula-Mozid"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-icon"><i class="fas fa-brain"></i></div>
+              <h3>Parkinson’s Detection</h3>
+              <p class="short-desc">Spiral Handwriting Image Preprocessing.</p>
+              <div class="details">
+                <p>
+                  Developed a preprocessing pipeline for spiral handwriting
+                  images using OpenCV, skeletonization, and noise removal for ML
+                  models.
+                </p>
+                <a
+                  href="https://github.com/Mridula-Mozid"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-icon">
+                <i class="fas fa-shopping-bag"></i>
+              </div>
+              <h3>Crafty Cat</h3>
+              <p class="short-desc">E-commerce website for handmade items.</p>
+              <div class="details">
+                <p>
+                  Full-stack web app allowing students to sell unique items.
+                  Built with Java, Servlet, HTML, CSS, and JavaScript.
+                </p>
+                <a
+                  href="https://github.com/Mridula-Mozid"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- See More Button -->
+        <div class="see-more-container">
+          <a
+            href="https://github.com/Mridula-Mozid?tab=repositories"
+            target="_blank"
+            class="see-more-btn"
+          >
+            See More Projects <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <h2>Achievements & Activities</h2>
+        <div class="achievements-card-container">
+          <div class="achievement-card">
+            <div class="icon-circle">
+              <i class="fas fa-trophy highlight-icon"></i>
+            </div>
+            <h3>Outstanding Student Volunteer</h3>
+            <p>
+              WIE Award Honorable Mention (2025). Recognized for exceptional
+              leadership within IEEE BDS.
+            </p>
+          </div>
+          <div class="achievement-card">
+            <div class="icon-circle">
+              <i class="fas fa-users highlight-icon"></i>
+            </div>
+            <h3>Chairperson - IEEE BUP WIE</h3>
+            <p>
+              May 2024 - Current. Coordinating 150+ members and events focused
+              on women in STEM.
+            </p>
+          </div>
+          <div class="achievement-card">
+            <div class="icon-circle">
+              <i class="fas fa-briefcase highlight-icon"></i>
+            </div>
+            <h3>Intern - YSSE</h3>
+            <p>
+              Content Writer (March 2025). Composed 40+ educational blogs and
+              designed feature images.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Socials -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>
+          Feel free to reach out for collaborations or just a friendly hello!
+        </p>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/mridula-mozid" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Mridula-Mozid" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="mailto:mridulamozid@gmail.com"
+            id="mail-link"
+            title="Copy Email to Clipboard"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+
+        <!-- Toast Notification -->
+        <div id="toast">Email copied to clipboard!</div>
+
+        <form
+          action="https://formspree.io/f/xvzwkkkj"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="_replyto"
+              class="form-control"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              class="form-control"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="btn primary-btn"
+            style="width: 100%; justify-content: center"
+          >
+            <i class="fas fa-paper-plane"></i> Send
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Mridula Mozid. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
