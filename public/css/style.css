@@ -365,7 +365,7 @@ section[id] {
   gap: 80px;
 }
 
-.education-box, .skills-box {
+.education-box, .skills-box, .about-me-box, .resume-box {
   background: var(--card-bg);
   padding: 48px;
   border-radius: 32px;
@@ -374,20 +374,20 @@ section[id] {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.education-box:hover, .skills-box:hover {
+.education-box:hover, .skills-box:hover, .about-me-box:hover, .resume-box:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md);
   border-color: var(--primary-color);
 }
 
-.education-box h2, .skills-box h2 {
+.education-box h2, .skills-box h2, .about-me-box h2, .resume-box h2 {
   font-size: 2rem;
   text-align: left;
   margin-bottom: 40px;
   display: block;
 }
 
-.education-box h2::after, .skills-box h2::after {
+.education-box h2::after, .skills-box h2::after, .about-me-box h2::after, .resume-box h2::after {
   margin: 16px 0 0;
   width: 60px;
 }
@@ -835,6 +835,52 @@ textarea.form-control {
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
+}
+
+/* About Me & Resume Specifics */
+.about-me-box, .resume-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--primary-color);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.resume-box .resume-intro {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+.resume-box .resume-actions {
+  justify-content: center;
+  margin-top: auto; /* Push buttons to bottom if height varies */
 }
 
 /* Footer */
